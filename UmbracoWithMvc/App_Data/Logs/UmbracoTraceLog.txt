@@ -86,3 +86,38 @@ System.Net.WebException: The underlying connection was closed: An unexpected err
    at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
    at System.Net.WebClient.DownloadString(Uri address)
    at dashboardUtilities.FeedProxy.Page_Load(Object sender, EventArgs e)
+2020-06-04 14:25:40,393 [11] INFO  Umbraco.Core.Security.UmbracoMembershipProviderBase - [T26/D2] Login attempt succeeded for username demo@user.com from IP address ::1
+2020-06-04 14:25:40,399 [11] INFO  Umbraco.Web.Security.WebSecurity - [T26/D2] User Id: 0 logged in
+2020-06-04 14:25:40,416 [11] INFO  Umbraco.Core.PluginManager - [T55/D2] Starting resolution types of Umbraco.Web.Trees.TreeController
+2020-06-04 14:25:40,416 [11] INFO  Umbraco.Core.PluginManager - [T55/D2] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2020-06-04 14:26:33,159 [11] INFO  Umbraco.Core.Security.UmbracoMembershipProviderBase - [T56/D2] Login attempt succeeded for username demo@user.com from IP address ::1
+2020-06-04 14:26:33,164 [11] INFO  Umbraco.Web.Security.WebSecurity - [T56/D2] User Id: 0 logged in
+2020-06-04 16:13:10,349 [11] INFO  Umbraco.Core.CoreBootManager - [T1/D3] Umbraco application starting
+2020-06-04 16:13:10,391 [11] INFO  Umbraco.Core.PluginManager - [T1/D3] Determining hash of code files on disk
+2020-06-04 16:13:10,403 [11] INFO  Umbraco.Core.PluginManager - [T1/D3] Hash determined (took 10ms)
+2020-06-04 16:13:10,410 [11] INFO  Umbraco.Core.PluginManager - [T1/D3] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2020-06-04 16:13:10,681 [11] INFO  Umbraco.Core.PluginManager - [T1/D3] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 37 (took 269ms)
+2020-06-04 16:13:10,744 [11] INFO  Umbraco.Core.PluginManager - [T1/D3] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2020-06-04 16:13:10,748 [11] INFO  Umbraco.Core.PluginManager - [T1/D3] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 3ms)
+2020-06-04 16:13:10,748 [11] INFO  Umbraco.Core.PluginManager - [T1/D3] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+2020-06-04 16:13:10,753 [11] INFO  Umbraco.Core.PluginManager - [T1/D3] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 16 (took 4ms)
+2020-06-04 16:13:10,767 [11] INFO  Umbraco.Core.PluginManager - [T1/D3] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2020-06-04 16:13:10,770 [11] INFO  Umbraco.Core.PluginManager - [T1/D3] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 4 (took 3ms)
+2020-06-04 16:13:10,770 [11] INFO  Umbraco.Core.PluginManager - [T1/D3] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2020-06-04 16:13:10,774 [11] INFO  Umbraco.Core.PluginManager - [T1/D3] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 35 (took 3ms)
+2020-06-04 16:13:10,809 [11] INFO  Umbraco.Core.PluginManager - [T1/D3] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2020-06-04 16:13:10,819 [11] INFO  Umbraco.Core.PluginManager - [T1/D3] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 9ms)
+2020-06-04 16:13:10,819 [11] INFO  Umbraco.Core.PluginManager - [T1/D3] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2020-06-04 16:13:10,822 [11] INFO  Umbraco.Core.PluginManager - [T1/D3] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 3ms)
+2020-06-04 16:13:11,604 [11] INFO  Umbraco.Web.Search.ExamineEvents - [T1/D3] Initializing Examine and binding to business logic events
+2020-06-04 16:13:11,852 [11] INFO  Umbraco.Web.Search.ExamineEvents - [T1/D3] Adding examine event handlers for index providers: 3
+2020-06-04 16:13:11,859 [11] INFO  Umbraco.Core.CoreBootManager - [T1/D3] Umbraco application startup complete (took 1502ms)
+2020-06-04 16:13:12,279 [11] INFO  Umbraco.Web.UmbracoModule - [T6/D3] Setting OriginalRequestUrl: localhost:2225/umbraco
+2020-06-04 16:13:12,337 [11] INFO  umbraco.content - [T6/D3] Load Xml from file...
+2020-06-04 16:13:12,341 [11] INFO  umbraco.content - [T6/D3] Loaded Xml from file.
+2020-06-04 16:13:12,463 [11] INFO  Umbraco.Core.PluginManager - [T6/D3] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2020-06-04 16:13:12,469 [11] INFO  Umbraco.Core.PluginManager - [T6/D3] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 23 (took 5ms)
+2020-06-04 16:13:13,180 [11] INFO  Umbraco.Core.PluginManager - [T6/D3] Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+2020-06-04 16:13:13,188 [11] INFO  Umbraco.Core.PluginManager - [T6/D3] Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 44 (took 8ms)
+2020-06-04 16:13:13,306 [11] WARN  Umbraco.Web.Mvc.RenderRouteHandler - [T6/D3] The current Document Type Home matches a locally declared controller of type UmbracoWithMvc.Controllers.HomeController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderMvcController' and inherit from 'System.Web.Mvc.ControllerBase'.
+2020-06-04 16:14:19,027 [11] INFO  umbraco.BusinessLogic.Log - [T12/D3] Log scrubbed.  Removed all items older than 2020-04-05 16:14:19
