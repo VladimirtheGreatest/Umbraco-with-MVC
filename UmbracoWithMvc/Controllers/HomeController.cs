@@ -1,9 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading;
 using System.Web;
 using System.Web.Mvc;
 using Umbraco.Web;
+using Umbraco.Web.Models;
 
 namespace UmbracoWithMvc.Controllers
 {
@@ -17,15 +19,16 @@ namespace UmbracoWithMvc.Controllers
         }
         public ActionResult Index()
         {
-           // var user = umbracoContext.Security.CurrentUser.Email;
+        
            var rootNode = umbracoContext.ContentCache.GetById(1073);
 
            var siteTitle = rootNode.GetPropertyValue<string>("siteTitle");
 
             ViewBag.SiteTitle = siteTitle;
-           // ViewBag.User = user;
 
-            return View();
+            var model = new RenderModel(rootNode, Thread.CurrentThread.CurrentCulture);
+
+            return View(model);
         }
 
     }
