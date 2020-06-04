@@ -1,0 +1,88 @@
+﻿2020-06-04 12:45:53,474 [11] INFO  Umbraco.Core.CoreBootManager - [T1/D2] Umbraco application starting
+2020-06-04 12:45:53,518 [11] INFO  Umbraco.Core.PluginManager - [T1/D2] Determining hash of code files on disk
+2020-06-04 12:45:53,525 [11] INFO  Umbraco.Core.PluginManager - [T1/D2] Hash determined (took 6ms)
+2020-06-04 12:45:53,532 [11] INFO  Umbraco.Core.PluginManager - [T1/D2] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2020-06-04 12:45:53,984 [11] INFO  Umbraco.Core.PluginManager - [T1/D2] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 37 (took 451ms)
+2020-06-04 12:45:54,113 [11] INFO  Umbraco.Core.PluginManager - [T1/D2] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2020-06-04 12:45:54,121 [11] INFO  Umbraco.Core.PluginManager - [T1/D2] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 7ms)
+2020-06-04 12:45:54,122 [11] INFO  Umbraco.Core.PluginManager - [T1/D2] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+2020-06-04 12:45:54,130 [11] INFO  Umbraco.Core.PluginManager - [T1/D2] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 16 (took 8ms)
+2020-06-04 12:45:54,146 [11] INFO  Umbraco.Core.PluginManager - [T1/D2] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2020-06-04 12:45:54,150 [11] INFO  Umbraco.Core.PluginManager - [T1/D2] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 4 (took 3ms)
+2020-06-04 12:45:54,150 [11] INFO  Umbraco.Core.PluginManager - [T1/D2] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2020-06-04 12:45:54,154 [11] INFO  Umbraco.Core.PluginManager - [T1/D2] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 35 (took 3ms)
+2020-06-04 12:45:54,207 [11] INFO  Umbraco.Core.PluginManager - [T1/D2] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2020-06-04 12:45:54,211 [11] INFO  Umbraco.Core.PluginManager - [T1/D2] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 4ms)
+2020-06-04 12:45:54,211 [11] INFO  Umbraco.Core.PluginManager - [T1/D2] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2020-06-04 12:45:54,214 [11] INFO  Umbraco.Core.PluginManager - [T1/D2] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 3ms)
+2020-06-04 12:45:55,229 [11] INFO  Umbraco.Web.Search.ExamineEvents - [T1/D2] Initializing Examine and binding to business logic events
+2020-06-04 12:45:55,607 [11] INFO  Umbraco.Web.Search.ExamineEvents - [T1/D2] Adding examine event handlers for index providers: 3
+2020-06-04 12:45:55,628 [11] INFO  Umbraco.Core.CoreBootManager - [T1/D2] Umbraco application startup complete (took 2137ms)
+2020-06-04 12:45:57,065 [11] INFO  Umbraco.Core.PluginManager - [T1/D2] Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+2020-06-04 12:45:57,074 [11] INFO  Umbraco.Core.PluginManager - [T1/D2] Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 44 (took 8ms)
+2020-06-04 12:45:57,397 [11] INFO  umbraco.content - [T1/D2] Load Xml from file...
+2020-06-04 12:45:57,401 [11] INFO  umbraco.content - [T1/D2] Loaded Xml from file.
+2020-06-04 12:45:58,168 [11] INFO  Umbraco.Web.UmbracoModule - [T9/D2] Setting OriginalRequestUrl: localhost:2225/umbraco
+2020-06-04 12:45:58,419 [11] INFO  Umbraco.Core.PluginManager - [T9/D2] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2020-06-04 12:45:58,426 [11] INFO  Umbraco.Core.PluginManager - [T9/D2] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 23 (took 6ms)
+2020-06-04 12:47:04,452 [11] INFO  umbraco.BusinessLogic.Log - [T15/D2] Log scrubbed.  Removed all items older than 2020-04-05 12:47:04
+2020-06-04 12:47:41,037 [11] INFO  Umbraco.Core.Security.UmbracoMembershipProviderBase - [T18/D2] Login attempt succeeded for username demo@user.com from IP address ::1
+2020-06-04 12:47:41,083 [11] INFO  Umbraco.Web.Security.WebSecurity - [T18/D2] User Id: 0 logged in
+2020-06-04 12:47:41,182 [11] INFO  Umbraco.Core.PluginManager - [T9/D2] Starting resolution types of Umbraco.Web.Trees.TreeController
+2020-06-04 12:47:41,186 [11] INFO  Umbraco.Core.PluginManager - [T9/D2] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 4ms)
+2020-06-04 12:47:41,265 [11] INFO  Umbraco.Core.PluginManager - [T10/D2] Starting resolution types of umbraco.interfaces.IApplication
+2020-06-04 12:47:41,279 [11] INFO  Umbraco.Core.PluginManager - [T10/D2] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 14ms)
+2020-06-04 12:47:41,353 [11] INFO  Umbraco.Core.PluginManager - [T9/D2] Starting resolution types of umbraco.interfaces.ITree
+2020-06-04 12:47:41,364 [11] INFO  Umbraco.Core.PluginManager - [T9/D2] Completed resolution of types of umbraco.interfaces.ITree, found 35 (took 11ms)
+2020-06-04 12:47:41,375 [11] INFO  Umbraco.Core.PluginManager - [T9/D2] Starting resolution types of Umbraco.Web.Trees.TreeController
+2020-06-04 12:47:41,375 [11] INFO  Umbraco.Core.PluginManager - [T9/D2] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2020-06-04 12:47:41,376 [11] INFO  Umbraco.Core.PluginManager - [T9/D2] Starting resolution types of umbraco.interfaces.ITree
+2020-06-04 12:47:41,382 [11] INFO  Umbraco.Core.PluginManager - [T9/D2] Completed resolution of types of umbraco.interfaces.ITree, found 19 (took 5ms)
+2020-06-04 12:49:23,901 [11] ERROR dashboardUtilities.FeedProxy - [T7/D2] Exception occurred
+System.Net.WebException: The underlying connection was closed: An unexpected error occurred on a send. ---> System.IO.IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host. ---> System.Net.Sockets.SocketException: An existing connection was forcibly closed by the remote host
+   at System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   at System.Net.FixedSizeReader.ReadPacket(Byte[] buffer, Int32 offset, Int32 count)
+   at System.Net.Security.SslState.StartReceiveBlob(Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.CheckCompletionBeforeNextReceive(ProtocolToken message, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.StartSendBlob(Byte[] incoming, Int32 count, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.ForceAuthentication(Boolean receiveFirst, Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.ProcessAuthentication(LazyAsyncResult lazyResult)
+   at System.Net.TlsStream.CallProcessAuthentication(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Net.TlsStream.ProcessAuthentication(LazyAsyncResult result)
+   at System.Net.TlsStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at System.Net.PooledStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at System.Net.ConnectStream.WriteHeaders(Boolean async)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at dashboardUtilities.FeedProxy.Page_Load(Object sender, EventArgs e)
+2020-06-04 12:52:53,095 [11] ERROR dashboardUtilities.FeedProxy - [T25/D2] Exception occurred
+System.Net.WebException: The underlying connection was closed: An unexpected error occurred on a send. ---> System.IO.IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host. ---> System.Net.Sockets.SocketException: An existing connection was forcibly closed by the remote host
+   at System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   at System.Net.FixedSizeReader.ReadPacket(Byte[] buffer, Int32 offset, Int32 count)
+   at System.Net.Security.SslState.StartReceiveBlob(Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.CheckCompletionBeforeNextReceive(ProtocolToken message, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.StartSendBlob(Byte[] incoming, Int32 count, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.ForceAuthentication(Boolean receiveFirst, Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.ProcessAuthentication(LazyAsyncResult lazyResult)
+   at System.Net.TlsStream.CallProcessAuthentication(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Net.TlsStream.ProcessAuthentication(LazyAsyncResult result)
+   at System.Net.TlsStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at System.Net.PooledStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at System.Net.ConnectStream.WriteHeaders(Boolean async)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at dashboardUtilities.FeedProxy.Page_Load(Object sender, EventArgs e)
