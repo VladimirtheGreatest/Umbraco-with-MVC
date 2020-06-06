@@ -14,6 +14,8 @@ namespace UmbracoWithMvc.Controllers
         
         public ActionResult BlogOverView(RenderModel model)
         {
+            ViewBag.Hello = "test";
+
             var blogOverviewModel = new BlogOverViewModel(model.Content, Umbraco);
 
             return Index(new RenderModel(blogOverviewModel));
