@@ -1,1 +1,1 @@
-﻿<%@ Application Inherits="Umbraco.Web.UmbracoApplication" Language="C#" %>
+﻿<%@ Application Inherits="UmbracoWithMvc.CustomUmbracoRoutingApp" Language="C#" %>
