@@ -10,7 +10,7 @@ namespace UmbracoWithMvc.Controllers
 {
     public class ContactUsController : SurfaceController
     {
-        // GET: ContactUs
+       
         public ActionResult Index(ContactUsModel model)
        {
             if (ModelState.IsValid)
