@@ -26,12 +26,11 @@ namespace UmbracoWithMvc
             public override IBootManager Complete(Action<ApplicationContext> afterComplete)
             {
                 RouteTable.Routes.MapRoute(
-                    "HomePage",
-                    "home/index",
-                    new { controller = "Home", action = "Index" }
+                    "Renewal",
+                    "renewal/index/{id}",
+                    new { controller = "Renewal", action = "Index", id = "" }
                 );
                 return base.Complete(afterComplete);
-
             }
         }
     }
