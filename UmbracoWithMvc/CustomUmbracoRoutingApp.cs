@@ -28,7 +28,7 @@ namespace UmbracoWithMvc
                 RouteTable.Routes.MapRoute(
                     "Renewal",
                     "renewal/index/{id}",
-                    new { controller = "Renewal", action = "Index", id = "" }
+                    new { controller = "Renewal", action = "Renew", id = "" }
                 );
                 return base.Complete(afterComplete);
             }

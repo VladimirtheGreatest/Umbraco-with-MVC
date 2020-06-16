@@ -1,6 +1,7 @@
-﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+﻿@inherits Umbraco.Web.Mvc.UmbracoViewPage<UmbracoWithMvc.Models.RenewalModel>
 @{
     Layout = "Master.cshtml";
 }
 
+<h1>@Model.Id</h1>
 <h2 class="text-center">Incorrect renewal Id</h2>
